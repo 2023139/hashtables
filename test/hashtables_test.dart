@@ -1,4 +1,4 @@
-import 'package:hashtables/hashtables.dart';
+import '../lib/hashtables.dart';
 import 'package:test/test.dart';
 
 void main() {
