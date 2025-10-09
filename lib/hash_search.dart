@@ -1,8 +1,6 @@
 String? studentSearch(List<Student?> studentList, int studentId){
 
-
-
-return null;
+  return studentList[studentId]?.name;
 }
 
 class Student {
