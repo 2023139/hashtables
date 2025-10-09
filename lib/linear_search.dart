@@ -6,8 +6,3 @@ int? linearSearch(List<int> list, int value){
   }
   return null;
 }
-
-void main(){
-  List<int> myList = [32, 42, 12, -24, 5, -8, 23];
-  print(linearSearch(myList, -24));
-}
