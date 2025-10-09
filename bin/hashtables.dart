@@ -35,6 +35,6 @@ void main() {
   students.insert(Student(2022007, "UM"));
   students.insert(Student(2024007, "VG"));
 
-  final studentName = students.getStudent(2024008);
+  final studentName = students.getStudent(2024007);
   print(studentName);
 }
