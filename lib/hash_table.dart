@@ -7,6 +7,9 @@ class Student {
 
   @override
   String toString() => "Student ID: $id \nName: $name";
+
+  // @override
+  // int get hashCode => id % 100;
   
 }
 
@@ -36,4 +39,6 @@ class HashTable {
     }
     return null;
   }
+
+  
 }

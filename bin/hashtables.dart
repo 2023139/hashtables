@@ -37,4 +37,26 @@ void main() {
 
   final studentName = students.getStudent(2024007);
   print(studentName);
+
+  final word = "cat";
+  print(word.hashCode);
+  final arraySize = 200;
+  final index = word.hashCode % arraySize;
+  print(index);
+
+Map<int, String> myMap = {
+  2024078: "AZ1",
+  2024077: "AZ2",
+  2023139: "BB"
+};
+
+print(myMap[2024078]);
+
+Map<String, int> nameToIdMap = {
+  "AZ1": 2024078,
+  "AZ2": 2024077,
+  "BB": 2023139
+};
+final id = nameToIdMap["AZ1"];
+print(id);
 }
